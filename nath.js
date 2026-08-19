@@ -481,7 +481,7 @@ function animateStars() {
   const isLight = document.body.classList.contains('light-mode');
 
   // Background
-  ctx.fillStyle = isLight ? '#f0f2f5' : '#05080F';
+  ctx.fillStyle = isLight ? '#e5e7eb' : '#05080F';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   // ---- Draw stars ----
@@ -921,6 +921,5 @@ if (contactForm && contactSubmitBtn) {
     requestAnimationFrame(step);
   });
 }
-
 
 

@@ -2596,7 +2596,7 @@ footer p {
 
 /* =============================== LIGHT THEME OVERRIDES =============================== */
 body.light-mode {
-  --bg-main: #f0f2f5;
+  --bg-main: #e5e7eb;
   --text-main: #111827;
   --text-muted: #4B5563;
   --primary: #2563EB;
@@ -2874,7 +2874,7 @@ body.light-mode .theme-toggle-btn:hover {
 
 /* Light-mode adjustments */
 body.light-mode .section-overlay {
-  background: rgba(240, 242, 245, 0.94);
+  background: rgba(229, 231, 235, 0.94);
 }
 
 body.light-mode .section-overlay-close {
